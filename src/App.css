@@ -1,0 +1,141 @@
+/* src/App.css */
+body {
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    width: 400px;
+  }
+  
+  .body-image {
+    width: 100%;  /* Adjust the width as needed */
+    height: auto;  /* Maintain the aspect ratio */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;  /* Place the image behind other content */
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .btn-outline-secondary {
+    position: absolute;
+    top: 50%;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .text-muted {
+    font-size: 12px;
+  }
+  
+  .label {
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    color: #0088ff;
+    margin-left:20lvh;
+  }
+  
+  .account-label {
+    
+    font-size: 13px;
+    font-weight: 500;
+    color: #73787c;
+  }
+  
+  .sign {
+      background-color: #04aa5d;
+      border: none;
+      color: white;
+      border-radius: 10px;
+      padding: 3px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  
+  .account-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;  
+  }
+  
+  .cards  {
+    border: 1px solid #ddd;  
+    padding: 20px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.1); 
+  }
+  
+  .section {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px; 
+    padding-bottom: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 100px 220px;
+    gap: 10px;
+  } 
+  
+  .submit {  
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .spinner {
+    margin-top: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 3s linear infinite;
+    margin: 0 auto; /* Center the spinner */
+  }
+  
