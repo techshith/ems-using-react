@@ -1,0 +1,27 @@
+/* src/components/Profile.css */
+/* src/components/Profile.css */
+
+.avatar-container {
+ 
+    align-items: center;
+  }
+  
+  .avatar {
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    font-size: 16px;
+    display: inline-block;
+    /* Adjust as needed */
+  }
+
+  .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
