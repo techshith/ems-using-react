@@ -1,9 +1,8 @@
 # Employee Management System
 
-This sytem is designed to manage employees within a given organisation. Every action is data-driven and the app has a materialistic look and feel.
+This app is designed to manage employees within a given organisation. Every action is data-driven and the app has a materialistic look and feel.
 
-# Tools Used
-For the project, these are the following tools used:
+# Tech stack Used
 - React
 - Firebase
 - Node.js
@@ -12,7 +11,6 @@ For the project, these are the following tools used:
 - MUI and Gravatar API
 
 # Features
-The application has the following features:
 - Creating User Account and Login
 - Data Driven Updates
 - Create, View, Edit and Delete Employee Data
